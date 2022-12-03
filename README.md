@@ -4,7 +4,7 @@
 
 Mes solutions pour l'[Advent of Code](https://adventofcode.com/) 2022, en Typescript.
 
-![Advent of Code](https://cdn.thenewstack.io/media/2021/12/521cd034-advent-of-code-2021.jpg)
+![Advent of Code](https://repository-images.githubusercontent.com/573039229/a95e6d4c-cfaf-4e60-b764-2516b812765a)
 
 </div>
 
