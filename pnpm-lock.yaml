@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/chalk-animation': ^1.6.1
   '@types/figlet': ^1.5.5
   '@types/gulp': ^4.0.10
   '@types/gulp-terser': ^1.2.1
@@ -27,6 +28,7 @@ dependencies:
   inquirer: 9.1.4
 
 devDependencies:
+  '@types/chalk-animation': 1.6.1
   '@types/figlet': 1.5.5
   '@types/gulp': 4.0.10
   '@types/gulp-terser': 1.2.1
@@ -158,6 +160,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@types/chalk-animation/1.6.1:
+    resolution: {integrity: sha512-MSuZqFkBeKcik4oMzd/BjaTRYkLpNftRSYkI/oszmckHAZOTSKslWR1CRdURwsxXBgYHPRlb5JM6Cx+tkyXUAg==}
     dev: true
 
   /@types/expect/1.20.4:

@@ -1,6 +1,7 @@
 import inquirer, { DistinctChoice, ListChoiceMap } from "inquirer";
 import chalkAnimation from "chalk-animation";
 import Day01 from "./Day01/index.js";
+import Day02 from "./Day02/index.js";
 
 const choices: DistinctChoice<
   { menu: () => void },
@@ -10,6 +11,10 @@ const choices: DistinctChoice<
     name: "01",
     value: Day01,
   },
+  {
+    name: "02",
+    value: Day02,
+  }
 ];
 
 console.clear();

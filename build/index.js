@@ -1,11 +1,16 @@
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
 import Day01 from "./Day01/index.js";
+import Day02 from "./Day02/index.js";
 const choices = [
     {
         name: "01",
         value: Day01,
     },
+    {
+        name: "02",
+        value: Day02,
+    }
 ];
 console.clear();
 const title = chalkAnimation.rainbow("Advent of Code 2022, by Beygs");
