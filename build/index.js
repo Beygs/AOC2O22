@@ -2,6 +2,7 @@ import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
 import Day01 from "./Day01/index.js";
 import Day02 from "./Day02/index.js";
+import Day03 from "./Day03/index.js";
 const choices = [
     {
         name: "01",
@@ -10,6 +11,10 @@ const choices = [
     {
         name: "02",
         value: Day02,
+    },
+    {
+        name: "03",
+        value: Day03,
     }
 ];
 console.clear();

@@ -1,5 +1,4 @@
-import { readFileSync } from "fs";
-import { formatAnswer } from "../utils.js";
+import { formatAnswer, getData } from "../utils.js";
 const MOVES_MAP = {
     A: 1,
     B: 2,
@@ -32,7 +31,7 @@ const computeMove = (p1, outcome) => {
     }
 };
 const Day02 = () => {
-    const data = readFileSync("public/day02.txt", { encoding: "utf8" });
+    const data = getData(2);
     const moves = data.split("\n").map((move) => move.split(" "));
     const totalScore = moves.map((move) => {
         const p1 = MOVES_MAP[move[0]];

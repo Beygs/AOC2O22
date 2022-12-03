@@ -1,7 +1,6 @@
-import { readFileSync } from "fs";
-import { formatAnswer } from "../utils.js";
+import { formatAnswer, getData } from "../utils.js";
 const Day01 = () => {
-    const data = readFileSync("public/day01.txt", { encoding: "utf-8" });
+    const data = getData(1);
     const elves = data.split("\n\n").map((elf) => elf.split("\n").map((cal) => parseInt(cal)));
     const calories = elves.map((elf) => elf.reduce((a, b) => a + b));
     const topElf = Math.max(...calories);
