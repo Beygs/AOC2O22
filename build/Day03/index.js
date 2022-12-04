@@ -44,7 +44,6 @@ const Day03 = () => {
     console.log(formatAnswer(1, prioritiesSum));
     const badges = getBadges(rucksacks);
     const badgesPriorities = badges.map((badge) => getPriority(badge));
-    console.log(rucksacks.length / 3, badges.length);
     const badgesSum = badgesPriorities.reduce((a, b) => a + b);
     console.log(formatAnswer(2, badgesSum));
 };
